@@ -37,6 +37,30 @@ const quizzes = {
             { id: uuid(), option: "One above all", iscorrect: true },
           ],
         },
+        //3rd
+        {
+          id: uuid(),
+          question: `"वास्तविकता हमेसा नीरशजनक होती है" ye dialogue  kiska hai? `,
+          options: [
+            { id: uuid(), option: "Thor ka", iscorrect: false },
+            { id: uuid(), option: "Thanose Ka", iscorrect: false },
+            { id: uuid(), option: "Govind urrf banti ka ", iscorrect: true },
+            { id: uuid(), option: "Iron man ka", iscorrect: false },
+          ],
+        },
+        //4th
+        {
+          id: uuid(),
+          question: `who is "teli" caste se teli nahi, wahi teli jo hamesa pista rehta ha, wahi teli jho kone mey rehta hai? `,
+          options: [
+            { id: uuid(), option: "Thor ", iscorrect: false },
+            { id: uuid(), option: "shivansh", iscorrect: true },
+            { id: uuid(), option: "guru ", iscorrect: false },
+            { id: uuid(), option: "govind", iscorrect: false },
+          ],
+        },
+      
+
       ],
     },
     {
@@ -798,7 +822,7 @@ const quizzes = {
         //6th quizz
         {
           id: uuid(),
-          question: `If a dozen eggs cost ₹240, what is the cost of one egg?`,
+          question: `Which is the smallest amongs these options?`,
           options: [
             { id: uuid(), option: `Nuclei`, iscorrect: false },
             { id: uuid(), option: `Mitochondria`, iscorrect: false },
@@ -991,8 +1015,141 @@ const quizzes = {
         },
       ],
     },
+    {
+      id: uuid(),
+       main:"General",
+      category: "Chemistry Quiz",
+      image:
+        "https://play-lh.googleusercontent.com/9RpBrXMSg4d31-a5yduSh5qTZySsMYj0yxr44Qbs4tX3NaZMnUzACKRyQObcb8_muUAq",
+      title: "Chemistry Quiz",
+      description:
+        "Welcome to the Basic Chemistry Quiz, where you'll embark on a journey through the fundamental principles that form the backbone of Chemistry.",
+
+      quizz: [
+        // 1st quizz
+        {
+          id: uuid(),
+          question: `When all parameters of pH, HCO3-, and CO2 are normal, what is the condition called?`,
+          options: [
+            { id: uuid(), option: `Uncompensated`, iscorrect: false },
+            { id: uuid(), option: `Corrected`, iscorrect: true },
+            { id: uuid(), option: `Fully compensated`, iscorrect: false },
+            { id: uuid(), option: `Partially compensated`, iscorrect: false },
+          ],
+        },
+        //2nd quizz
+        {
+          id: uuid(),
+          question: `If CO2 causes acidosis or alkalosis, what type is it?`,
+          options: [
+            { id: uuid(), option: `Combined`, iscorrect: false},
+            { id: uuid(), option: `Metabolic`, iscorrect: false },
+            { id: uuid(), option: `Respiratory`, iscorrect: true},
+            { id: uuid(), option: `None`, iscorrect: false },
+          ],
+        },
+        //3rd quizz
+        {
+          id: uuid(),
+          question: `If HCO3- (bicarbonate) caused the acidosis or the alkalosis, what type is it?
+`,
+          options: [
+            { id: uuid(), option: `Metabolic`, iscorrect: true },
+            { id: uuid(), option: `Respiratory`, iscorrect: false },
+            { id: uuid(), option: `None`, iscorrect: false },
+            { id: uuid(), option: `Respiratory`, iscorrect: false },
+          ],
+        },
+        //4th quizz
+        {
+          id: uuid(),
+          question: `What is the normal range of pH in the body?`,
+          options: [
+            { id: uuid(), option: `7.35-7.45`, iscorrect: true },
+            { id: uuid(), option: `35-45`, iscorrect: false },
+            { id: uuid(), option: `22-26`, iscorrect: false },
+            { id: uuid(), option: `Not listed`, iscorrect: false },
+          ],
+        },
+        //5th quizz
+        {
+          id: uuid(),
+          question: `What is the normal range of carbon dioxide (CO2) in arterial blood as measured by an arterial blood gas test?`,
+          options: [
+            { id: uuid(), option: `7.35-7.45 ppm`, iscorrect: false },
+            { id: uuid(), option: `35-45 ppm`, iscorrect: true },
+            { id: uuid(), option: `Not listed`, iscorrect: false },
+            { id: uuid(), option: `22-26 ppm`, iscorrect: false },
+          ],
+        },
+        //6th quizz
+        {
+          id: uuid(),
+          question: `When the pH is normal, but both HCO3- and CO2 are abnormal, what is the condition called?`,
+          options: [
+            { id: uuid(), option: `Partially compensated`, iscorrect: false },
+            { id: uuid(), option: `Corrected`, iscorrect: false },
+            { id: uuid(), option: `Uncompensated`, iscorrect: false },
+            { id: uuid(), option: `Fully compensated`, iscorrect: true },
+          ],
+        },
+        //7th quizz
+        {
+          id: uuid(),
+          question: `What is the chemical symbol for gold?`,
+          options: [
+            { id: uuid(), option: `Ag`, iscorrect: false },
+            { id: uuid(), option: `Fe`, iscorrect: false },
+            { id: uuid(), option: `Hg`, iscorrect: false },
+            { id: uuid(), option: `Au`, iscorrect: true },
+          ],
+        },
+        //8th quiz
+        {
+          id: uuid(),
+          question: `Which element is the most abundant in the Earth's crust?`,
+          options: [
+            { id: uuid(), option: `Oxygen`, iscorrect: true },
+            { id: uuid(), option: `Silicon`, iscorrect: false },
+            { id: uuid(), option: `Aluminum`, iscorrect: false },
+            { id: uuid(), option: `Iron`, iscorrect: false},
+          ],
+        },
+        //9th quiz
+        {
+          id: uuid(),
+          question: `What is the pH of a neutral solution?`,
+          options: [
+            { id: uuid(), option: `0`, iscorrect: false},
+            { id: uuid(), option: `10`, iscorrect: false},
+            { id: uuid(), option: `7`, iscorrect: true },
+            { id: uuid(), option: `6`, iscorrect: false },
+          ],
+        },
+        //10th quiz
+        {
+          id: uuid(),
+          question: `What type of bond involves the sharing of electrons between atoms?`,
+          options: [
+            {
+              id: uuid(),
+              option: `Ionic`,
+              iscorrect: false,
+            },
+            { id: uuid(), option: `Metallic`, iscorrect: false },
+            {
+              id: uuid(),
+              option: `Covalent`,
+              iscorrect: true,
+            },
+            { id: uuid(), option: `Hydrogen`, iscorrect: false },
+          ],
+        },
+      ],
+    },
 
   ],
 };
 
 export default quizzes;
+
